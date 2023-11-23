@@ -13,11 +13,11 @@ This is an implementation of CrosA on the Meta_baseline (baseline network)
 3. ???The trained models are copied in this directory. We have offerred the trained models.
 ## Train
 ```
-python -m src.trident_train --cnfg PATH_TO_CONFIG.JSON
+python train_meta.py --config CONFIG_PATH.yaml
 ```
 example:
 ```
-python -m src.trident_train --cnfg ./configs/mini-5,1/train_conf.json
+python train_meta.py --config configs/train_meta_mini.yaml
 ```
 
 ## Test
