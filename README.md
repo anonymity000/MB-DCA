@@ -21,11 +21,7 @@ python train_meta.py --config configs/train_meta_mini.yaml
 ```
 
 ## Test
-
+To test the performance, modify configs/test_few_shot.yaml by setting "load" to the saving file of the trained model. Or create a new directory "test" and move the "max-va.pth" to this directory.
 ```
-python -m src.trident_test --cnfg PATH_TO_CONFIG.JSON
-```
-example:
-```
-python -m src.trident_test --cnfg ./configs/mini-5,1/test_conf.json
+python test_few_shot.py
 ```
