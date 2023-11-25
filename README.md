@@ -5,9 +5,9 @@ This is an implementation of CrosA on the Meta_baseline (baseline network)
 1. Create a directory: materials. 
 2. miniImagenet: extract dataset (mini-imagenet.tar.gz) in ./materials/mini-imagenet  [Link](https://drive.google.com/file/d/16V_ZlkW4SsnNDtnGmaBRq2OoPmUOc5mY/view?pli=1)
    <br>Rename the three files as:
-           miniImageNet_category_split_train_phase_train.pickle
-           miniImageNet_category_split_val.pickle
-           miniImageNet_category_split_test.pickle
+          <br>miniImageNet_category_split_train_phase_train.pickle
+          <br>miniImageNet_category_split_val.pickle
+          <br>miniImageNet_category_split_test.pickle
 4. tieredImagenet: extract dataset in ./materials/mini-imagenet  [Link] ()
 5. CUB200-2011: extract dataset in ./dataset/cubirds2  [Link](https://drive.google.com/file/d/1hbzc_P1FuxMkcabkgn9ZKinBwW683j45/view)???
 
