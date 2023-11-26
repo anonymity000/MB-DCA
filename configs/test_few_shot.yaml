@@ -1,0 +1,12 @@
+dataset: mini-imagenet
+#dataset: tiered-imagenet
+#dataset: cifar
+#dataset: cub
+#dataset: vggflower
+#dataset: aircraft
+#dataset: fungi
+dataset_args: {split: test}
+
+#load: ./save/meta_mini-imagenet-1shot_meta-baseline-resnet12/max-va.pth
+load: ./test/max-va.pth
+
