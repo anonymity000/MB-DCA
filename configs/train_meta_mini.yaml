@@ -7,7 +7,7 @@ val_dataset_args: {split: val}
 
 model: meta-baseline
 model_args: 
-    encoder: resnet4
+    encoder: resnet12
     encoder_args: {}
 
 n_way: 5
