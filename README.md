@@ -3,13 +3,14 @@ This is an implementation of CrosA on the Meta_baseline (baseline network)
 
 # Data
 1. Create a directory: materials. 
-2. miniImagenet: extract dataset (mini-imagenet.tar.gz) in ./materials/mini-imagenet  [Link](https://drive.google.com/file/d/16V_ZlkW4SsnNDtnGmaBRq2OoPmUOc5mY/view?pli=1)
+2. Mini-ImageNet: extract dataset (mini-imagenet.tar.gz) in ./materials/mini-imagenet  [Link](https://drive.google.com/file/d/16V_ZlkW4SsnNDtnGmaBRq2OoPmUOc5mY/view?pli=1)
    <br>Rename the three files as:
           <br>  miniImageNet_category_split_train_phase_train.pickle
           <br>  miniImageNet_category_split_val.pickle
           <br>  miniImageNet_category_split_test.pickle
-4. tieredImagenet: extract dataset in ./materials/mini-imagenet  [Link] ()
-5. CUB200-2011: extract dataset in ./dataset/cubirds2  [Link](https://drive.google.com/file/d/1hbzc_P1FuxMkcabkgn9ZKinBwW683j45/view)???
+4. Tiered Imagenet: extract dataset in ./materials/mini-imagenet  [Link] ()
+5. Cifar： extract dataset in ./materials/cifar [Link](https://drive.google.com/file/d/1JfnX_8MIHHOdmiOTX96B8IGSgR8d6hZL/view?usp=drive_link)
+6. CUB200-2011: extract dataset in ./dataset/cubirds2  [Link](https://drive.google.com/file/d/1hbzc_P1FuxMkcabkgn9ZKinBwW683j45/view)???
 
 # Usage
 1. Create a directory: ./save The training/testing results are saved in this directory.
