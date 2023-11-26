@@ -1,8 +1,0 @@
-dataset: mini-imagenet
-#dataset: tiered-imagenet
-#dataset: cifar
-
-dataset_args: {split: test}
-
-load: ./test/max-va.pth
-
