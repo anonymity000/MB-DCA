@@ -98,8 +98,8 @@ class ResNet4(nn.Module):
 
 @register('resnet4')
 def resnet4():
-    #return ResNet4([64, 64, 64, 64])
-    return ResNet4([32, 32, 32, 32])
+    return ResNet4([64, 64, 64, 64])
+    #return ResNet4([32, 32, 32, 32])
     #return ResNet4([128, 128, 128, 128])
 
 @register('resnet12-wide')
