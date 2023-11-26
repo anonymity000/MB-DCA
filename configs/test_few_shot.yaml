@@ -8,5 +8,5 @@ dataset: mini-imagenet
 dataset_args: {split: test}
 
 #load: ./save/meta_mini-imagenet-1shot_meta-baseline-resnet12/max-va.pth
-load: ./test/max-va.pth
+load: ./test/max-va-mini-resn4-64-1shot.pth
 
