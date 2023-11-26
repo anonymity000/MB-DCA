@@ -13,9 +13,9 @@ This is an implementation of CrosA on the Meta_baseline (baseline network)
 8. FGVC-Fungi: extract dataset in ./materials/fungi  [Link](https://drive.google.com/file/d/1y9jl3xHKj3_9tNfuvpsGj196rBgCErZV/view)
 
 # Usage
-1. Create a directory: ./save The training/testing results are saved in this directory.
-2. Create a directory: ./materials/mini-imagenet
-3. ???The trained models are copied in this directory. We have offerred the trained models.
+1. Create a directory: ./save, the training/testing results are saved in this directory.
+2. Create a directory: ./test, copy the trained model into this directory for testing.
+3. We have offerred the trained models. [Link]()
 ## Train
 ```
 python train_meta.py --config CONFIG_PATH.yam
@@ -26,7 +26,8 @@ python train_meta.py --config configs/train_meta_mini.yaml
 ```
 
 ## Test
-To test the performance, modify configs/test_few_shot.yaml by setting "load" to the saving file of the trained model. Or create a new directory "test" and move the "max-va.pth" to this directory.
+To test the performance, modify configs/test_few_shot.yaml by setting "load" to the saving file of the trained model. Or copy the trained model to ./test directory.
+<br> Edit the dataset of the test_few_shot.yaml for testing different datasets.
 ```
 python test_few_shot.py
 ```
