@@ -25,6 +25,7 @@ example:
 ```
 python train_meta.py --config configs/train_meta_mini.yaml
 ```
+1. Set n-way,k-shot in **./configs/train_meta_mini.yaml**, the default setting is 5-way,1-shot
 1. Set the backbone in **./configs/train_meta_mini.yaml** e.g. encoder: resnet12 or encoder: convnet4
 2. Set the channels of  **./models/convnet4.py** or  **./models/resnet12.py**. The default channel is 64.
 3. If you change the channel, also need to modify the value of hdim in **./models/meta_baseline.py**.  
