@@ -25,7 +25,10 @@ example:
 python train_meta.py --config configs/train_meta_mini.yaml
 ```
 When using the different backbones on MB-CrosA, set the encoder: resnet12/convnet4, and the channels of  ${\color{red}./models/convnet4.py}$ or  ${\color{red}./models/resnet12.py}$. The default channel is 64.
-If you change the channel, also need to modify the value of hdim in ${\color{red}meta_baseline.py}$.  32:800, 64:1600, 128:3200.
+<br>If you change the channel, also need to modify the value of hdim in ${\color{red}meta_baseline.py}$.  
+<br>if channel=32, hdim=800
+<br>if channel=64, hdim=1600
+<br>if channel=128, hdim=3200
 ## Test
 1. Edit the dataset of the test_few_shot.yaml for testing different datasets (including cross-domain testing).
 2. Modify test_few_shot.yaml by setting "load" to the saving file of the trained model. e.g. load: ./test/max-va-mini-resn4-64-1shot.pth
