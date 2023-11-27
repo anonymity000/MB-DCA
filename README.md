@@ -25,7 +25,7 @@ example:
 ```
 python train_meta.py --config configs/train_meta_mini.yaml
 ```
-1. Set the backbone in train_meta_mini.yaml e.g. encoder: resnet12 or encoder: convnet4
+1. Set the backbone in **./configs/train_meta_mini.yaml** e.g. encoder: resnet12 or encoder: convnet4
 2. Set the channels of  **./models/convnet4.py** or  **./models/resnet12.py**. The default channel is 64.
 3. If you change the channel, also need to modify the value of hdim in **./models/meta_baseline.py**.  
 <br>if channel=32, hdim=800
