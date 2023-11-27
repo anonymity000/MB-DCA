@@ -25,8 +25,9 @@ example:
 ```
 python train_meta.py --config configs/train_meta_mini.yaml
 ```
-When using the different backbones on MB-CrosA, set the encoder: resnet12/convnet4, and the channels of  ${\color{red}./models/convnet4.py}$ or  ${\color{red}./models/resnet12.py}$. The default channel is 64.
-<br>If you change the channel, also need to modify the value of hdim in ${\color{red}meta_baseline.py}$.  
+1. Set the backbone in train_meta_mini.yaml e.g. encoder: resnet12 or encoder: convnet4
+2. Set the channels of  ${\color{red}./models/convnet4.py}$ or  ${\color{red}./models/resnet12.py}$. The default channel is 64.
+3. If you change the channel, also need to modify the value of hdim in ${\color{red}./models/meta_baseline.py}$.  
 <br>if channel=32, hdim=800
 <br>if channel=64, hdim=1600
 <br>if channel=128, hdim=3200
