@@ -2,7 +2,7 @@
 This is an implementation of CrosA on the Meta_baseline (baseline network)
 
 # Data
-1. Create a directory: <span style="color: green">materials</span>
+1. Create a directory: <span style="color: green">materials</span> !sf
 2. Mini-ImageNet: extract dataset (mini-imagenet.tar.gz) in ./materials/mini-imagenet  [Link](https://drive.google.com/file/d/1uvE6rG_QM_tIUViEqN08filSkyYHsfpU/view)
 3. Tiered Imagenet: extract dataset in ./materials/tiered-imagenet  [Link](https://drive.google.com/file/d/1Y54Nwimfilhf245BaTnyZ7x16hnNc0B5/view)
 4. Cifar： extract dataset in ./materials/cifar [Link](https://drive.google.com/file/d/1JfnX_8MIHHOdmiOTX96B8IGSgR8d6hZL/view)
