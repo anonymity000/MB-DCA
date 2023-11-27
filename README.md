@@ -1,6 +1,8 @@
 # MB-CrosA
 This is an implementation of CrosA on the Meta_baseline (baseline network)
+<text>
 <tspan fill="red">Hello</tspan>
+<\text>
 # Data
 1. Create a directory: ${\color{red}materials\_qwe}$  
 2. Mini-ImageNet: extract dataset (mini-imagenet.tar.gz) in  ${\color{red}./materials/mini-imagenet}$  [Link](https://drive.google.com/file/d/1uvE6rG_QM_tIUViEqN08filSkyYHsfpU/view)
