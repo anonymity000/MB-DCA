@@ -28,7 +28,7 @@ When using the different backbones on MB-CrosA, set the encoder: resnet12/convne
 If you change the channel, also need to modify the value of hdim in meta_baseline.py.  32:800, 64:1600, 128:3200.
 ## Test
 1. Edit the dataset of the test_few_shot.yaml for testing different datasets (including cross-domain testing).
-2. Modify  ${\color{red}./configs/test_few_shot.yaml}$ by setting "load" to the saving file of the trained model. e.g. load: ./test/max-va-mini-resn4-64-1shot.pth
+2. Modify  ${\color{red}./configs/test\_few\_shot.yaml}$ by setting "load" to the saving file of the trained model. e.g. load: ./test/max-va-mini-resn4-64-1shot.pth
 <br>Or copy the trained model to  ${\color{red}./test directory}$.
 ```
 python test_few_shot.py
