@@ -33,16 +33,15 @@ python train_meta.py --config configs/train_meta_mini.yaml
 <br>if channel=64, hdim=1600
 <br>if channel=128, hdim=3200
 ## Test
-1. Edit the dataset of the **./configs/test_few_shot.yaml** for testing different datasets (including cross-domain testing).
-2. Modify **./configs/test_few_shot.yaml** by setting "load" to the saving file of the trained model. e.g. load: **./test/max-va-mini-resn4-64-1shot.pth**
-<br>Or copy the trained model to  **./test** directory.
+1. Edit the **dataset** of **./configs/test_few_shot.yaml** for testing different datasets (including cross-domain testing).
+2. Copy the trained model to  **./test** directory.
+3. Edit the **load** of **./configs/test_few_shot.yaml** to load the trained model. e.g. load: **./test/max-va-mini-resn4-64-1shot.pth**.
 
-
-Testing in 5-way,1-shot setting:
+Test in 5-way,1-shot setting:
 ```
 python test_few_shot.py --shot 1
 ```
-<br>Testing in 5-way,5-shot setting:
+<br>Test in 5-way,5-shot setting:
 ```
 python test_few_shot.py --shot 5
 ```
