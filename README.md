@@ -37,5 +37,8 @@ python train_meta.py --config configs/train_meta_mini.yaml
 2. Modify **./configs/test_few_shot.yaml** by setting "load" to the saving file of the trained model. e.g. load: **./test/max-va-mini-resn4-64-1shot.pth**
 <br>Or copy the trained model to  **./test** directory.
 ```
-python test_few_shot.py
+python test_few_shot.py --shot 1
+```
+```
+python test_few_shot.py --shot 5
 ```
