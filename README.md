@@ -36,7 +36,9 @@ python train_meta.py --config configs/train_meta_mini.yaml
 1. Edit the dataset of the **./configs/test_few_shot.yaml** for testing different datasets (including cross-domain testing).
 2. Modify **./configs/test_few_shot.yaml** by setting "load" to the saving file of the trained model. e.g. load: **./test/max-va-mini-resn4-64-1shot.pth**
 <br>Or copy the trained model to  **./test** directory.
-<br>Testing in 5-way,1-shot setting:
+
+
+Testing in 5-way,1-shot setting:
 ```
 python test_few_shot.py --shot 1
 ```
