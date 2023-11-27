@@ -2,12 +2,10 @@
 This is an implementation of CrosA on the Meta_baseline (baseline network)
 
 # Data
-1. Create a directory:'''diff
-   !materials
-'''
-   3. Mini-ImageNet: extract dataset (mini-imagenet.tar.gz) in ./materials/mini-imagenet  [Link](https://drive.google.com/file/d/1uvE6rG_QM_tIUViEqN08filSkyYHsfpU/view)
-4. Tiered Imagenet: extract dataset in ./materials/tiered-imagenet  [Link](https://drive.google.com/file/d/1Y54Nwimfilhf245BaTnyZ7x16hnNc0B5/view)
-5. Cifar： extract dataset in ./materials/cifar [Link](https://drive.google.com/file/d/1JfnX_8MIHHOdmiOTX96B8IGSgR8d6hZL/view)
+1. Create a directory: $${\color{red}materials}$$
+2. Mini-ImageNet: extract dataset (mini-imagenet.tar.gz) in ./materials/mini-imagenet  [Link](https://drive.google.com/file/d/1uvE6rG_QM_tIUViEqN08filSkyYHsfpU/view)
+3. Tiered Imagenet: extract dataset in ./materials/tiered-imagenet  [Link](https://drive.google.com/file/d/1Y54Nwimfilhf245BaTnyZ7x16hnNc0B5/view)
+4. Cifar： extract dataset in ./materials/cifar [Link](https://drive.google.com/file/d/1JfnX_8MIHHOdmiOTX96B8IGSgR8d6hZL/view)
 ## For cross-domain testing, only the test data is provided:
 5. CUB200-2011: extract dataset in ./materials/cub  [Link](https://drive.google.com/file/d/17P0W-pTWPZUvN5Ul8MYxxzduXAz-LpDM/view)
 6. VGG-flower: extract dataset in ./materials/vggflower  [Link](https://drive.google.com/file/d/1czK3osLvtyfa6YHQciPadC6QZllvbPL7/view)
