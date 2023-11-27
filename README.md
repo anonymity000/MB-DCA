@@ -16,7 +16,7 @@ This is an implementation of CrosA on the Meta_baseline (baseline network)
 1. Create a directory:  **./save**, the training/testing results are saved in this directory.
 2. Create a directory:  **./test**, copy the trained model into this directory for testing.
 3. We have offerred the trained models. [Link](https://drive.google.com/drive/folders/1PTcUwVxuBRHVWkI2dTo_Ls00lZsrn1Zr)
-   <br>You can download the models in **./test** for testing directly.
+   <br>You can download the models to **./test** for testing directly.
 ## Train
 ```
 python train_meta.py --config CONFIG_PATH.yam
