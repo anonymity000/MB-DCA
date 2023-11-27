@@ -3,14 +3,14 @@ This is an implementation of CrosA on the Meta_baseline (baseline network)
 
 # Data
 1. Create a directory: ${\color{red}materials}$
-2. Mini-ImageNet: extract dataset (mini-imagenet.tar.gz) in ./materials/mini-imagenet  [Link](https://drive.google.com/file/d/1uvE6rG_QM_tIUViEqN08filSkyYHsfpU/view)
-3. Tiered Imagenet: extract dataset in ./materials/tiered-imagenet  [Link](https://drive.google.com/file/d/1Y54Nwimfilhf245BaTnyZ7x16hnNc0B5/view)
-4. Cifar： extract dataset in ./materials/cifar [Link](https://drive.google.com/file/d/1JfnX_8MIHHOdmiOTX96B8IGSgR8d6hZL/view)
+2. Mini-ImageNet: extract dataset (mini-imagenet.tar.gz) in  ${\color{red}./materials/mini-imagenet}$  [Link](https://drive.google.com/file/d/1uvE6rG_QM_tIUViEqN08filSkyYHsfpU/view)
+3. Tiered Imagenet: extract dataset in  ${\color{red}./materials/tiered-imagenet}$  [Link](https://drive.google.com/file/d/1Y54Nwimfilhf245BaTnyZ7x16hnNc0B5/view)
+4. Cifar： extract dataset in  ${\color{red}./materials/cifar}$ [Link](https://drive.google.com/file/d/1JfnX_8MIHHOdmiOTX96B8IGSgR8d6hZL/view)
 ## For cross-domain testing, only the test data is provided:
-5. CUB200-2011: extract dataset in ./materials/cub  [Link](https://drive.google.com/file/d/17P0W-pTWPZUvN5Ul8MYxxzduXAz-LpDM/view)
-6. VGG-flower: extract dataset in ./materials/vggflower  [Link](https://drive.google.com/file/d/1czK3osLvtyfa6YHQciPadC6QZllvbPL7/view)
-7. FGVC-Aircraft: extract dataset in ./materials/aircraft  [Link](https://drive.google.com/file/d/1sb-xvQC2b1xXkecEWc2BX5JK2bIoHd-W/view)
-8. FGVC-Fungi: extract dataset in ./materials/fungi  [Link](https://drive.google.com/file/d/1y9jl3xHKj3_9tNfuvpsGj196rBgCErZV/view)
+5. CUB200-2011: extract dataset in  ${\color{red}./materials/cub}$  [Link](https://drive.google.com/file/d/17P0W-pTWPZUvN5Ul8MYxxzduXAz-LpDM/view)
+6. VGG-flower: extract dataset in  ${\color{red}./materials/vggflower}$  [Link](https://drive.google.com/file/d/1czK3osLvtyfa6YHQciPadC6QZllvbPL7/view)
+7. FGVC-Aircraft: extract dataset in  ${\color{red}./materials/aircraft}$  [Link](https://drive.google.com/file/d/1sb-xvQC2b1xXkecEWc2BX5JK2bIoHd-W/view)
+8. FGVC-Fungi: extract dataset in  ${\color{red}./materials/fungi}$  [Link](https://drive.google.com/file/d/1y9jl3xHKj3_9tNfuvpsGj196rBgCErZV/view)
 
 # Usage
 1. Create a directory: ./save, the training/testing results are saved in this directory.
