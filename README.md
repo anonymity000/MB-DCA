@@ -13,8 +13,8 @@ This is an implementation of CrosA on the Meta_baseline (baseline network)
 8. FGVC-Fungi: extract dataset in  ${\color{red}./materials/fungi}$  [Link](https://drive.google.com/file/d/1y9jl3xHKj3_9tNfuvpsGj196rBgCErZV/view)
 
 # Usage
-1. Create a directory: ./save, the training/testing results are saved in this directory.
-2. Create a directory: ./test, copy the trained model into this directory for testing.
+1. Create a directory:  ${\color{red}./save}$, the training/testing results are saved in this directory.
+2. Create a directory:  ${\color{red}./test}$, copy the trained model into this directory for testing.
 3. We have offerred the trained models. [Link](https://drive.google.com/drive/folders/1PTcUwVxuBRHVWkI2dTo_Ls00lZsrn1Zr)
 ## Train
 ```
@@ -24,12 +24,12 @@ example:
 ```
 python train_meta.py --config configs/train_meta_mini.yaml
 ```
-When using the different backbones on MB-CrosA, set the encoder: resnet4/convnet4, and the channels of ./models/convnet4.py or ./models/resnet4. The default channel is 64.
+When using the different backbones on MB-CrosA, set the encoder: resnet12/convnet4, and the channels of  ${\color{red}./models/convnet4.py}$ or  ${\color{red}./models/resnet12}$. The default channel is 64.
 If you change the channel, also need to modify the value of hdim in meta_baseline.py.  32:800, 64:1600, 128:3200.
 ## Test
-To test the performance, modify configs/test_few_shot.yaml by setting "load" to the saving file of the trained model. e.g. load: ./test/max-va-mini-resn4-64-1shot.pth
-<br>Or copy the trained model to ./test directory.
-<br> Edit the dataset of the test_few_shot.yaml for testing different datasets (including cross-domain testing).
+1. Edit the dataset of the test_few_shot.yaml for testing different datasets (including cross-domain testing).
+2. Modify  ${\color{red}./configs/test_few_shot.yaml}$ by setting "load" to the saving file of the trained model. e.g. load: ./test/max-va-mini-resn4-64-1shot.pth
+<br>Or copy the trained model to  ${\color{red}./test directory}$.
 ```
 python test_few_shot.py
 ```
