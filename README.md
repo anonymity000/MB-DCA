@@ -1,5 +1,5 @@
 # MB-DCA
-This is an implementation of CrosA on the Meta_baseline (baseline network)
+This is an implementation of DCA on the Meta_baseline (baseline network)
 
 # Data
 1. Create a directory: **./materials** 
